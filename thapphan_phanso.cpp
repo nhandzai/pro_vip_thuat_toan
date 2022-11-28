@@ -37,7 +37,3 @@ void biendoi(double x, int &tu, int &mau)
     tu /= uc;
     mau /= uc;
 }
-int main()
-{
-
-}
