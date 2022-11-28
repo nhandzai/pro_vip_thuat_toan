@@ -21,10 +21,8 @@ int UCLN(int a, int b)
 {
     int uc;
     for (int i = min(a, b); i > 0; i--)
-    {
         if (a % i == 0 && b % i == 0)
             return i;
-    }
     return 1;
 }
 void biendoi(double x, int &tu, int &mau)
